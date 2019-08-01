@@ -1,0 +1,13 @@
+{
+	"body": {
+		"version": "1.0",
+		"response": {
+			"outputSpeech": {
+				"type": "SSML",
+				"ssml": "<speak>Hello qiQo learn!</speak>"
+			},
+			"shouldEndSession": false,
+			"type": "_DEFAULT_RESPONSE"
+		}
+	}
+}

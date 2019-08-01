@@ -1,0 +1,213 @@
+## intent:greet
+- [hey](GREET)
+- [hello](GREET)
+- [hi](GREET)
+- [howdy](GREET)
+- [hola](GREET)
+- [namaste](GREET)
+- good [morning](GREET_WISH)
+- good [afternoon](GREET_WISH)
+- good [evening](GREET_WISH)
+- [how are you](GREET_QUESTIONS)
+- [how are you doing](GREET_QUESTIONS)
+- [how is it going](GREET_QUESTIONS)
+- [whatsup](GREET_QUESTIONS)
+- [wassup](GREET_QUESTIONS)
+- [sup](GREET_QUESTIONS)
+- [whats up](GREET_QUESTIONS)
+- [how are things](GREET_QUESTIONS)
+## intent:introduction
+- my name is [lisa](PERSON)
+- you can call me [john](PERSON)
+- what is your name?
+- i go by [shawn](PERSON)
+- my name's [leona](PERSON)
+- i am [hugh](PERSON)
+## intent:bye 
+- [bye](GOODBYE)
+- [goodbye](GOODBYE)
+- [good bye](GOODBYE)
+- [ttyl](GOODBYE)
+- [gtg](GOODBYE)
+- [adios](GOODBYE)
+- [farewell](GOODBYE)
+- [adieu](GOODBYE)
+- [ciao](GOODBYE)
+- [going](GOODBYE) now
+- [talk to you later](GOODBYE)
+- [got to go](GOODBYE)
+- [later](GOODBYE)
+- [done for the day](GOODBYE)
+- [good night](GOODBYE)
+- [exit](END)
+- [end](END)
+- [abort](END)
+- [quit](END)
+- [stop](END)
+## intent:mood_affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- right
+- affirmative
+- yes to that
+- yep
+- allright
+- lets do this
+- i like this plan
+- perfect plan
+- ok
+- fine
+- okay
+- continue
+## intent:mood_deny
+- no
+- never
+- i don't think so
+- don't like that
+- no way
+- not really
+- no to that
+- not happenning
+- nope
+- cannot do that
+- not that
+- don't want to do that
+- i want to do something else
+## intent:meaning
+- what does it [mean](MEAN)?
+- can you [explain](MEAN) it?
+- [explain](MEAN) the word 
+- give me the [explaination](MEAN)
+- give me the [sense](MEAN) for this word.
+- [meaning](MEAN)
+- [define](MEAN)
+- [definition](MEAN)
+## intent:usage
+- how do you [use](SENTENCE) the word empathy
+- where do you [use](SENTENCE) the word
+- can you make a [sentence](SENTENCE) using the word
+- tell me a [sentence](SENTENCE) which uses this word
+- in what [context](SENTENCE) is it used?
+- give me its [reference](SENTENCE)
+- give me an [example](SENTENCE)
+- give [examples](SENTENCE)
+- what is the [usage](SENTENCE) of the word?
+- use word in a [phrase](SENTENCE)
+- [clause](SENTENCE)
+- [story](SENTENCE)
+## intent:pronunciation
+- how do you [say](PRONOUNCE) it?
+- can you [pronounce](PRONOUNCE) the word?
+-  learn to [say](PRONOUNCE) this word
+- what is its [pronounciation](PRONOUNCE)
+- what does it [sound](PRONOUNCE) like?
+- [enuciate](PRONOUNCE)
+- [articulate](PRONOUNCE)
+- [utter](PRONOUNCE)
+## intent:spelling
+- can you [spell](SPELL) the word?
+- how do you [write](SPELL) it?
+- give [spelling](SPELL)
+- tell me its [spelling](SPELL)
+- [print letters](SPELL)
+- [letters in](SPELL) the word
+- [spelled](SPELL)
+## intent:antonyms
+- what are its [opposites](ANTONYM)?
+- [antonym](ANTONYM) of the word
+- [opposite[](ANTONYM)
+- [other word against](ANTONYM) it?
+- [another word against](ANTONYM) it?
+- [different meaning](ANTONYM)
+- [contradictory](ANTONYM)
+- [converse](ANTONYM)
+## intent:synonyms
+- [same meaning](SYNONYM)
+- [similar meaning](SYNONYM)
+- [another word](SYNONYM) for the same
+- [synonyms](SYNONYM)
+- [synonym](SYNONYM)
+- [other word for](SYNONYM) it
+- [alternate](SYNONYM)
+- [substitute](SYNONYM)
+- [equivalent](SYNONYM)
+## intent:part_of_speech
+- is it a [noun](POS)
+- is it an [adjective](POS)
+- can it be used as a [verb](POS)
+- can the word be used as a [conjunction](POS)
+- [interjection](POS)
+- [adverb](POS)
+- [part of speech](POS)
+- [preposition](POS)
+- [pronoun](POS)
+## intent:word_form
+- from where the word [originated](ROOT_WORD)
+- [origination](ROOT_WORD) of word
+- [root word](ROOT_WORD)
+- [base word](ROOT_WORD)
+- [prefix](PREFIX)
+- [suffix](SUFFIX)
+- [preword](PREFIX)
+- [end of word](SUFFIX)
+- [adjunct](PREFIX)
+- [affix](PREFIX)
+- [postfix](SUFFIX)
+## intent:verb_tense
+- what is the tense of this word?
+- is it [present tense](PRESENT_TENSE)?
+- is it [past tense](PAST_TENSE)?
+- is it [future tense](FUTURE_TENSE)?
+- [present perfect](PRESENT_TENSE)
+- [present continuous](PRESENT_TENSE)
+- [past perfect](PAST_TENSE)
+- [past continuous](PAST_TENSE)
+- [future continuous](FUTURE_TENSE)
+- [future perfect](FUTURE_TENSE)
+- [simple present](PRESENT_TENSE)
+- [simple past](PAST_TENSE)
+- [simple future](FUTURE_TENSE)
+- [present perfect continuous](PRESENT_TENSE)
+- [past perfect continuous](PAST_TENSE)
+- [future perfect continuous](FUTURE_TENSE)
+## intent:learning
+- i want to [learn](LEARN) about it
+- can you [teach](LEARN) me about this word
+- i would like to watch some [tutorial](LEARN) about language vocabulary
+- how do you suggest i [prepare](LEARN) for the test
+- i want to solve some [challenge](LEARN) related to the vocabuulary learning.
+## intent:abusive
+- [stupid](abuse)
+- [dumb](abuse)
+- [nonsense](abuse)
+- [non sense](abuse)
+## intent:out_of_scope
+- i had chinese for lunch
+- it is a nice [weather](WEATHER) here
+- i would like to make some reservation
+- please reserve a table for me at this indian place
+- [summer](WEATHER) is here
+- its going to [snow](WEATHER) here
+- how is the [weather](WEATHER)?
+- it is a [nice day](WEATHER) today
+- [winter](WEATHER)
+- [fall](WEATHER)
+- [spring](WEATHER)
+- i want to go out for a [walk](ACTIVITY)
+- i enjoy [rains](THING)
+- [orange](THING) is my favorite color
+- i like to go on [hikes](ACTIVITY)
+- [California](PLACE) is a beautiful place
+- i want to live by the [beach](PLACE)
+- i hate going to the [dentist](PLACE)
+- i do not like to go to [gym](ACTIVITY)
+- [Dance](ACTIVITY) is my favorite exercise
+- [bike](ACTIVITY)
+- [park](PLACE)
+- [mountains](PLACE)
+
+
+

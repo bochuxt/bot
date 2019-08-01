@@ -1,0 +1,21 @@
+{
+  "name": "aiqo-learn",
+  "version": "0.0.1",
+  "description": "aiqo alexa skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aiqo",
+    "learn"
+  ],
+  "author": "George Hu",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  }
+}
